@@ -149,7 +149,7 @@ button:active   {
     background-image: url("Images/place-bg.jpeg");
 }
 .place-text {
-    width: 550px;
+    width: 800px;
     text-shadow: 0px 0px 2px #f6f5f5;
 }
 .place-text p:nth-child(1)  {
@@ -167,7 +167,29 @@ button:active   {
     line-height: 20px;
 }
 .place-text p:nth-child(3)  {
-    color:#7e7d7d;
+    color:#2d2a2a;
     font-family: calibri;
     font-size: 20px;
+}
+.hobbies-container    {
+    width: 80%;
+    height: 330px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: 2% auto 20px auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hobbies-text {
+    width: 800px;   
+}
+.hobbies-text p:nth-child(1){
+    color:#403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
 }
