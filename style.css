@@ -193,3 +193,6 @@ button:active   {
     font-size: 30px;
     line-height: 0px;
 }
+ul{
+    list-style-type: circle;
+}
